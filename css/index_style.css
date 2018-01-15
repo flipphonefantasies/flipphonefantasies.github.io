@@ -68,7 +68,7 @@ body {
 .marketing {
   margin: 40px 0;
 }
-.marketing p + h4 {
+.marketing p + h4 + img {
   margin-top: 28px;
 }
 
