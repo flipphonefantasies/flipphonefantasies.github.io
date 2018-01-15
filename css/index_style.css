@@ -14,7 +14,6 @@ body {
 	background: -webkit-linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
 	height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -62,10 +61,6 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
 }
 
 /* Supporting marketing content */
