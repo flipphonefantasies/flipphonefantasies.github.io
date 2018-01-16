@@ -14,45 +14,43 @@
 			
 			<div class="row">
 				<div class="col-md-3"></div>
-					<div class="col-md-6"></div>
-						<div class="jumbotron" id="hero">
-							<h1>FlipPhoneFantasies</h1>
-							<p class="lead">A small collection of photos, music and memories for us to keep.</p>
-						</div>
-					</div>
+				<div class="col-md-6"></div>
+				<div class="jumbotron" id="hero">
+					<h1>FlipPhoneFantasies</h1>
+					<p class="lead">A small collection of photos, music and memories for us to keep.</p>
+				</div>
 				<div class="col-md-3"></div>
 			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<img src="images/tinder.jpg" id="tinderImg" class="img-rounded img-responsive" alt="Tinder">
-				</div>
-				<div class="col-md-6"">
-					<img src="images/tinder.jpg" id="tinderImg" class="img-rounded img-responsive" alt="Tinder">
-				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/tinder.jpg" id="tinderImg" class="img-rounded img-responsive" alt="Tinder">
+			</div>
+			<div class="col-md-6"">
+				<img src="images/tinder.jpg" id="tinderImg" class="img-rounded img-responsive" alt="Tinder">
 			</div>
 		</div>
-
-		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-		<script>
-			window.sr = ScrollReveal();
-			var hero = {
-			origin   : "top",
-			distance : "24px",
-			duration : 1500,
-			scale    : 1.05,
+	</div>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+		window.sr = ScrollReveal();
+		var hero = {
+		origin   : "top",
+		distance : "24px",
+		duration : 1500,
+		scale    : 1.05,
+		}
+			var intro = {
+		origin   : "bottom",
+		distance : "64px",
+		duration : 900,
+		delay    : 1500,
+		scale    : 1,
 			}
-				var intro = {
-			origin   : "bottom",
-			distance : "64px",
-			duration : 900,
-			delay    : 1500,
-			scale    : 1,
-				}
-				sr.reveal("#hero", hero) ;
-				sr.reveal('#tinderImg', intro);
-		</script>
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
-	</body>
+			sr.reveal("#hero", hero) ;
+			sr.reveal('#tinderImg', intro);
+	</script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
 </html>
