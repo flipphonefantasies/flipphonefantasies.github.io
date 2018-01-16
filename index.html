@@ -33,7 +33,15 @@
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
       	<script>
       		window.sr = ScrollReveal();
-			sr.reveal('#tinderImg', { duration: 5000 });
+			var intro = {
+		        origin   : "bottom",
+		        distance : "64px",
+		        duration : 900,
+		        delay    : 1500,
+		        scale    : 1,
+  			}
+
+			sr.reveal('#tinderImg', intro);
 		</script>
       <script src="js/jquery.js"></script>
       <script src="js/bootstrap.js"></script>
