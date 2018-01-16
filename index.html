@@ -17,8 +17,8 @@
    <body>
    		<div class="container">
      
-      <div class="jumbotron">
-        <h1>Sam n Nic</h1>
+      <div class="jumbotron" id="hero">
+        <h1>FlipPhoneFantasies</h1>
         <p class="lead">A small collection of photos, music and memories for us to keep.</p>
       </div>
 
@@ -33,6 +33,14 @@
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
       	<script>
       		window.sr = ScrollReveal();
+
+      		var hero = {
+		        origin   : "top",
+		        distance : "24px",
+		        duration : 1500,
+		        scale    : 1.05,
+      		}
+
 			var intro = {
 		        origin   : "bottom",
 		        distance : "64px",
@@ -41,6 +49,7 @@
 		        scale    : 1,
   			}
 
+			sr.reveal("#hero", hero) ;
 			sr.reveal('#tinderImg', intro);
 		</script>
       <script src="js/jquery.js"></script>
