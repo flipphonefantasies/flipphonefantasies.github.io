@@ -27,6 +27,9 @@ body {
   border-bottom: 1px solid #e5e5e5;
   color: black;
   margin-top: 100px;
+
+  background: rgb(200, 54, 54); /* This is for ie8 and below */
+  background: rgba(200, 54, 54, 0.5); 
 }
 
 /* Responsive: Portrait tablets and up */
