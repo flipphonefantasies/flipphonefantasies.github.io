@@ -7,4 +7,4 @@ var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/
 
 console.log(diffDays) ;
 
-document.getElementById("dateDiff").innerHTML = diffDays + "since we met." ;
+document.getElementById("dateDiff").innerHTML = diffDays + " days since we met." ;
