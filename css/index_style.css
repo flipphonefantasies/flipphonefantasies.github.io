@@ -22,11 +22,11 @@ body {
 
 
 h1 {
-	font-size: 50px
+	font-size: 70px
 }
 
-#hero > p {
-	font-size: 30px 
+#smallText {
+	font-size: 50px 
 }
 
 
