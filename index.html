@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div id="hero" class="text-center">
+				<div id="hero2" class="text-center">
 					<p> A small collection of memories for us to keep.</p>
 					<img src="images/flip.png" id="flipImg" class="img-rounded img-responsive" alt="FlipPhone">
 				</div>
@@ -56,6 +56,23 @@
 		duration : 1500,
 		scale    : 1.05,
 		}
+
+		var hero2 = {
+		origin   : "right",
+		distance : "24px",
+		duration : 1500,
+		scale    : 1.05,
+		delay    : 500,
+		}
+
+		var flipImg = {
+		origin   : "bottom",
+		distance : "24px",
+		duration : 1500,
+		scale    : 1.05,
+		delay    : 900,
+		}
+
 			var intro = {
 		origin   : "bottom",
 		distance : "64px",
@@ -64,7 +81,11 @@
 		scale    : 1,
 			}
 			sr.reveal("#hero", hero) ;
+			sr.reveal("#hero2", hero2) ;
+			sr.reveal("#flipimg", flipImg);
 			sr.reveal('#tinderImg', intro);
+
+
 	</script>
 	
 </body>
