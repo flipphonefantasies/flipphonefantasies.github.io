@@ -30,23 +30,22 @@ h1 {
 }
 
 
+@media (min-width: 768px) {
+	#topRow { padding-top: 200px }
+ }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  color: black;
-  margin-top: 100px;
+ @media (min-width: 992px) {
+	#topRow { padding-top: 200px }
+ }
 
-  background: rgb(200, 54, 54); /* This is for ie8 and below */
-  background: rgba(200, 54, 54, 0.5); 
-}
+ @media (min-width: 1200px) {
+	#topRow { padding-top: 200px }
+ }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
+
+ #dateDiff {
+ 	font-size: 30px
+ }
 
 #tinderImg {
 	width:270px;
