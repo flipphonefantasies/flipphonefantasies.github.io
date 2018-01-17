@@ -21,6 +21,12 @@ body {
 }
 
 
+h1 {
+	font-size: 15px
+}
+
+
+
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
